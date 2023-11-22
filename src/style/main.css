@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: rgb(37, 60, 134);
+	transition: 5s;
+}
+
+img {
+	position: relative;
+	margin-top: -20px;
+	width: 250px;
+	height: 150px;
+	cursor: pointer;
+	/* transition: all ease-in 2s; */
+}
+.car_div {
+	width: 250px;
+	height: 120px;
+}
+
+.container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2rem;
+}
+.car,
+.parking {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.car {
+	gap: 90px;
+}
+
+.park {
+	display: grid;
+	place-items: center;
+	width: 300px;
+	height: 200px;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	border-top: 2px solid white;
+}
+
+.p {
+	color: white;
+	font-size: 100px;
+	transform: rotate(90deg);
+}
+
+h2,
+h1 {
+	font-size: 50px;
+	margin-left: 10px;
+	color: white;
+}
+
+.park {
+	pointer-events: visible;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 200px;
+	margin-top: 150px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
